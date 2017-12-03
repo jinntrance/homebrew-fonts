@@ -8,6 +8,8 @@ cask 'font-microsoft-jhenghei' do
   name 'Microsoft JhengHei'
   homepage 'https://www.microsoft.com/typography/fonts/family.aspx?FID=368'
 
+  depends_on formula: 'unar'
+
   font 'msjh.ttc'
   font 'msjhbd.ttc'
 end
