@@ -7,7 +7,7 @@ cask 'font-simhei' do
   name 'SimHei'
   homepage 'http://fonts.cooltext.com/'
 
-  container type: :ttf, nested: './'
+  container type: :ttf
   preflight do
     FileUtils.mv @cask.staged_path.join(CGI.unescape(File.basename(@cask.url.path))), @cask.staged_path.join('SimHei.ttf')
   end
