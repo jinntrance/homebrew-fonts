@@ -1,4 +1,4 @@
-cask 'font-microsoft-jhzenghei' do
+cask 'font-microsoft-jhenghei' do
   version :latest
   sha256 :no_check
 
