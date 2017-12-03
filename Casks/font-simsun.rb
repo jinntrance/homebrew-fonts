@@ -9,7 +9,6 @@ cask 'font-simsun' do
   name 'NSimSun'
   homepage 'http://fonts.cooltext.com/'
 
-  container type: :ttc
   preflight do
     FileUtils.mv @cask.staged_path.join(CGI.unescape(File.basename(@cask.url.path))), @cask.staged_path.join("SimSun.ttc")
   end
