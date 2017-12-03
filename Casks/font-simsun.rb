@@ -1,4 +1,4 @@
-cask 'font-fangzheng-shusong-gbk' do
+cask 'font-simsun' do
   version :latest
   sha256 :no_check
 
