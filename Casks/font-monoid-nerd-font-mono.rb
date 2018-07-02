@@ -1,10 +1,9 @@
 cask 'font-monoid-nerd-font-mono' do
-  version '1.2.0'
-  sha256 '57d16688a7b77f920472fb44e35dfae4cd4c8a3b718e1c622a84519f39231c5c'
+  version '2.0.0'
+  sha256 'ad63efadd67364f2e20eb1d0c387927dd0d638899036a70b4a06ae7842178d48'
 
   url "https://github.com/ryanoasis/nerd-fonts/releases/download/v#{version}/Monoid.zip"
-  appcast 'https://github.com/ryanoasis/nerd-fonts/releases.atom',
-          checkpoint: '7dedec17cde17542418131f94e739265707a4abe9d0773287d14f175c02325f7'
+  appcast 'https://github.com/ryanoasis/nerd-fonts/releases.atom'
   name 'Monoid Nerd Font (Monoid)'
   homepage 'https://github.com/ryanoasis/nerd-fonts'
 

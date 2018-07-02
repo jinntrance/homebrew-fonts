@@ -1,11 +1,10 @@
 cask 'font-barlow' do
-  version '1.208'
-  sha256 '6086c4b1c7a7da24a3da9127790f3e496b392e4f9c874dac838acf982faf8f3f'
+  version '1.403'
+  sha256 'a75384658b2c49048bc82a0e1423938bc6e170a7ca297fe43b3b0f8a389bacdf'
 
   # github.com/jpt/barlow was verified as official when first introduced to the cask
   url "https://github.com/jpt/barlow/archive/v#{version}.zip"
-  appcast 'https://github.com/jpt/barlow/releases.atom',
-          checkpoint: '5c8572655727651e280c396a21e74c474de4d5e3aec5bc242f1dc03679dd5833'
+  appcast 'https://github.com/jpt/barlow/releases.atom'
   name 'Barlow'
   homepage 'https://tribby.com/fonts/barlow'
 

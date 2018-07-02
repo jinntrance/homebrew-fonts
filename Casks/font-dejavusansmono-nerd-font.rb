@@ -1,19 +1,14 @@
 cask 'font-dejavusansmono-nerd-font' do
-  version '1.2.0'
-  sha256 'e0e8becdf376561063a804bc82ae3234595cc1a7c7ca035c3555cb04b619b03f'
+  version '2.0.0'
+  sha256 '0a3a0f67e94bb6fdeb08215eef67afe4b9e01cee3df509b05eb9a3c31f4eb31b'
 
   url "https://github.com/ryanoasis/nerd-fonts/releases/download/v#{version}/DejaVuSansMono.zip"
-  appcast 'https://github.com/ryanoasis/nerd-fonts/releases.atom',
-          checkpoint: '7dedec17cde17542418131f94e739265707a4abe9d0773287d14f175c02325f7'
-  name 'DejaVuSansMonoForPowerline Nerd Font (DejaVuSansMono)'
+  appcast 'https://github.com/ryanoasis/nerd-fonts/releases.atom'
+  name 'DejaVuSansMono Nerd Font (DejaVuSansMono)'
   homepage 'https://github.com/ryanoasis/nerd-fonts'
 
-  font 'DejaVu Sans Mono Bold for Powerline Nerd Font Complete.ttf'
   font 'DejaVu Sans Mono Bold Nerd Font Complete.ttf'
-  font 'DejaVu Sans Mono Bold Oblique for Powerline Nerd Font Complete.ttf'
   font 'DejaVu Sans Mono Bold Oblique Nerd Font Complete.ttf'
   font 'DejaVu Sans Mono Nerd Font Complete.ttf'
-  font 'DejaVu Sans Mono for Powerline Nerd Font Complete.ttf'
   font 'DejaVu Sans Mono Oblique Nerd Font Complete.ttf'
-  font 'DejaVu Sans Mono Oblique for Powerline Nerd Font Complete.ttf'
 end

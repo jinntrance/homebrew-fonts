@@ -1,14 +1,13 @@
 cask 'font-firamono-nerd-font' do
-  version '1.2.0'
-  sha256 '77ffee4498e23e3215edc9ea6eefa9f10b03deb6815dc3ccb9ad3336cd478f5c'
+  version '2.0.0'
+  sha256 '1eb587b0985d61a9323e0cc979ce16cf820013f0dd235c3a5df979029f6e6e34'
 
   url "https://github.com/ryanoasis/nerd-fonts/releases/download/v#{version}/FiraMono.zip"
-  appcast 'https://github.com/ryanoasis/nerd-fonts/releases.atom',
-          checkpoint: '7dedec17cde17542418131f94e739265707a4abe9d0773287d14f175c02325f7'
-  name 'FuraMonoForPowerline Nerd Font (FiraMono)'
+  appcast 'https://github.com/ryanoasis/nerd-fonts/releases.atom'
+  name 'FuraMono Nerd Font (FiraMono)'
   homepage 'https://github.com/ryanoasis/nerd-fonts'
 
-  font 'Fura Mono Bold for Powerline Nerd Font Complete.otf'
-  font 'Fura Mono Medium for Powerline Nerd Font Complete.otf'
-  font 'Fura Mono Regular for Powerline Nerd Font Complete.otf'
+  font 'Fura Mono Bold Nerd Font Complete.otf'
+  font 'Fura Mono Medium Nerd Font Complete.otf'
+  font 'Fura Mono Regular Nerd Font Complete.otf'
 end

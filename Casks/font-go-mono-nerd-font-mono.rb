@@ -1,10 +1,9 @@
 cask 'font-go-mono-nerd-font-mono' do
-  version '1.2.0'
-  sha256 'c6873e9563766a6ff9b36b35d25366bad406a0423b181a33cda6a8e58dd4bfc9'
+  version '2.0.0'
+  sha256 'b9de3b4bab110938fe2fb15a838d3c8f7a87607373076062574b73287e520fa3'
 
   url "https://github.com/ryanoasis/nerd-fonts/releases/download/v#{version}/Go-Mono.zip"
-  appcast 'https://github.com/ryanoasis/nerd-fonts/releases.atom',
-          checkpoint: '7dedec17cde17542418131f94e739265707a4abe9d0773287d14f175c02325f7'
+  appcast 'https://github.com/ryanoasis/nerd-fonts/releases.atom'
   name 'GoMono Nerd Font Mono (Go-Mono)'
   homepage 'https://github.com/ryanoasis/nerd-fonts'
 

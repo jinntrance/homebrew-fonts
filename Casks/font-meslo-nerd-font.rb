@@ -1,17 +1,16 @@
 cask 'font-meslo-nerd-font' do
-  version '1.2.0'
-  sha256 '1b2ea3e623c467a2142df7ee1bac120029add774b8f0229f8426452c01e70b87'
+  version '2.0.0'
+  sha256 '350ff0b1061ca0d1e933c59861d6421ebb2667d494875fcb1821d3df44f08476'
 
   url "https://github.com/ryanoasis/nerd-fonts/releases/download/v#{version}/Meslo.zip"
-  appcast 'https://github.com/ryanoasis/nerd-fonts/releases.atom',
-          checkpoint: '7dedec17cde17542418131f94e739265707a4abe9d0773287d14f175c02325f7'
-  name 'MesloLGM Nerd Font (Meslo)'
+  appcast 'https://github.com/ryanoasis/nerd-fonts/releases.atom'
+  name 'Meslo Nerd Font (Meslo)'
   homepage 'https://github.com/ryanoasis/nerd-fonts'
 
-  font 'Meslo LG M Regular for Powerline Nerd Font Complete.otf'
-  font 'Meslo LG L Regular for Powerline Nerd Font Complete.otf'
-  font 'Meslo LG S Regular for Powerline Nerd Font Complete.otf'
-  font 'Meslo LG L DZ Regular for Powerline Nerd Font Complete.otf'
-  font 'Meslo LG M DZ Regular for Powerline Nerd Font Complete.otf'
-  font 'Meslo LG S DZ Regular for Powerline Nerd Font Complete.otf'
+  font 'Meslo LG M Regular Nerd Font Complete.otf'
+  font 'Meslo LG L Regular Nerd Font Complete.otf'
+  font 'Meslo LG S Regular Nerd Font Complete.otf'
+  font 'Meslo LG L DZ Regular Nerd Font Complete.otf'
+  font 'Meslo LG M DZ Regular Nerd Font Complete.otf'
+  font 'Meslo LG S DZ Regular Nerd Font Complete.otf'
 end
